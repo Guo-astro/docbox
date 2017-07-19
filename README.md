@@ -1,12 +1,13 @@
 # Docbox :blue_book:
 
-[![Circle CI](https://circleci.com/gh/mapbox/docbox.svg?style=svg)](https://circleci.com/gh/mapbox/docbox)
+[![Circle CI](https://circleci.com/gh/tmcw/docbox.svg?style=shield)](https://circleci.com/gh/tmcw/docbox)
+[![Greenkeeper badge](https://badges.greenkeeper.io/tmcw/docbox.svg)](https://greenkeeper.io/)
 
 **Docbox is an open source version of [Mapbox](https://mapbox.com/)'s REST API documentation system.** It takes structured Markdown files and generates a friendly two-column layout with navigation, permalinks, and examples. The documentation source files that Docbox uses are friendly for documentation authors and free of presentational code: it's Markdown.
 
-[![](https://farm2.staticflickr.com/1534/24963539843_e26a00b3e1_b.jpg)](https://circle-artifacts.com/gh/mapbox/docbox/50/artifacts/0/tmp/circle-artifacts.8SMOD8H/index.html#our-api)
+[![](https://farm2.staticflickr.com/1534/24963539843_e26a00b3e1_b.jpg)](https://67-53007065-gh.circle-artifacts.com/0/tmp/circle-artifacts.NCC9T6a/index.html#our-api)
 
-_[Demo documentation](https://circle-artifacts.com/gh/mapbox/docbox/50/artifacts/0/tmp/circle-artifacts.8SMOD8H/index.html#our-api)_
+_[Demo documentation](https://67-53007065-gh.circle-artifacts.com/0/tmp/circle-artifacts.NCC9T6a/index.html#our-api)_
 
 **Docbox is a JavaScript application written with React.** The core magic is thanks to the [remark](http://remark.js.org/) Markdown parser, which enables the layout: after parsing a file into an [Abstract Syntax Tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree), we can move examples to the right, prose to the left, and build the navigation system.
 
@@ -19,6 +20,10 @@ _Docbox is a [Mapbox](http://mapbox.com/) community open source project. We buil
 ## Writing Documentation
 
 Documentation is written as Markdown files in the `content` directory, and is organized by the `src/custom/content.js` file - that file requires each documentation page and puts them in order. This demo has a little bit of content - [content/example.md](content/example.md) and [content/introduction.md](content/introduction.md), so that there's an example to follow.
+
+## Testing-driven
+
+Docbox's test suite is an integral part of the design: it's designed to catch any error that would produce invalid documentation and also designed to be extended with custom rules for your documentation standards. Remember to run `npm test` if anything looks funky, and if you have a standard you want to enforce, to enforce it automatically by writing a test!
 
 ## Customization
 
@@ -64,6 +69,11 @@ The `npm run build` command builds a `bundle.js` file that contains all the Java
 3. `npm run build`
 
 ---
+
+### Companies using docbox
+
+* [Mapbox API Documentation](https://www.mapbox.com/api-documentation/)
+* _[do you use docbox? let us know!](https://github.com/tmcw/docbox/issues/new?title=I%27m%20using%20docbox!)_
 
 ### [FAQ & See Also](https://github.com/mapbox/docbox/wiki)
 

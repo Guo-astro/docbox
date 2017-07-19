@@ -1,3 +1,36 @@
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+<a name="1.0.6"></a>
+## [1.0.6](https://github.com/tmcw/docbox/compare/v1.0.5...v1.0.6) (2017-05-11)
+
+
+### Bug Fixes
+
+* **package:** update eslint-plugin-react to version 7.0.0 ([5657bb2](https://github.com/tmcw/docbox/commit/5657bb2))
+* **readme:** Correct demo location ([f118de4](https://github.com/tmcw/docbox/commit/f118de4)), closes [#25](https://github.com/tmcw/docbox/issues/25)
+
+
+
+<a name="1.0.5"></a>
+## [1.0.5](https://github.com/tmcw/docbox/compare/v1.0.4...v1.0.5) (2017-03-18)
+
+
+### Bug Fixes
+
+* **css:** Fix styling of strong, em, and other inlines (#24) ([c4fefeb](https://github.com/tmcw/docbox/commit/c4fefeb)), closes [#24](https://github.com/tmcw/docbox/issues/24) [#23](https://github.com/tmcw/docbox/issues/23)
+
+<a name="1.0.4"></a>
+## [1.0.4](https://github.com/mapbox/docbox/compare/v1.0.3...v1.0.4) (2017-01-25)
+
+
+
+<a name="1.0.3"></a>
+## [1.0.3](https://github.com/mapbox/docbox/compare/v1.0.2...v1.0.3) (2017-01-25)
+
+
+
 ### March 22, 2016
 
 * Fixes non-unique IDs on section headers.
