@@ -1,6 +1,6 @@
 {
   "name": "docbox",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "an api documentation website",
   "main": "index.js",
   "scripts": {
@@ -37,7 +37,7 @@
     "browserify": "^14.3.0",
     "cssnano": "^3.4.0",
     "es6-promise": "^4.1.0",
-    "eslint": "^3.1.1",
+    "eslint": "^4.1.0",
     "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-react": "^7.0.0",
     "github-slugger": "^1.0.1",
@@ -48,7 +48,7 @@
     "prop-types": "^15.5.9",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
-    "remark": "^7.0.0",
+    "remark": "^8.0.0",
     "remark-html": "^6.0.0",
     "remark-slug": "^4.1.0",
     "standard-changelog": "^1.0.1",
@@ -63,7 +63,7 @@
     "expect": "^1.13.4",
     "mocha": "^3.2.0",
     "to-vfile": "^2.0.0",
-    "uglifyjs": "^2.4.10"
+    "uglify-js": "^3.0.27"
   },
   "config": {
     "commitizen": {
