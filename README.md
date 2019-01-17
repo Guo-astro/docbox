@@ -2,7 +2,6 @@
 	<br />docbox</p>
 	
 [![Circle CI](https://circleci.com/gh/tmcw/docbox.svg?style=shield)](https://circleci.com/gh/tmcw/docbox)
-[![Greenkeeper badge](https://badges.greenkeeper.io/tmcw/docbox.svg)](https://greenkeeper.io/)
 
 **Docbox is an open source REST API documentation system.** It takes structured Markdown files and generates a friendly two-column layout with navigation, permalinks, and examples. The documentation source files that Docbox uses are friendly for documentation authors and free of presentational code: it's Markdown.
 
@@ -75,6 +74,7 @@ The `npm run build` command builds a `bundle.js` file that contains all the Java
 * Mapillary uses docbox for [API Documentation](https://www.mapillary.com/developer/api-documentation/) and [Tiles Documentation](https://www.mapillary.com/developer/tiles-documentation/)
 * The open source [Project OSRM](http://project-osrm.org/docs/v5.10.0/api/#general-options) routing engine uses Docbox for its API documentation.
 * [8th Wall](https://docs.8thwall.com/) uses Docbox for the documentation of their AR product
+* [HYCON](https://docs.hycon.io/#introduction) documents their REST API for a blockchain with Docbox
 * _[do you use docbox? let us know!](https://github.com/tmcw/docbox/issues/new?title=I%27m%20using%20docbox!)_
 
 ### [FAQ & See Also](https://github.com/mapbox/docbox/wiki)
